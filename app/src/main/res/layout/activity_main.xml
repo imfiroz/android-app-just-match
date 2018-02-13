@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:textSize="50sp"
         android:text="Just Maths"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif-smallcaps"
         android:id="@+id/justMatch"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
@@ -36,7 +36,7 @@
             android:src="@drawable/ic_share_white_36dp"
             android:tint="#B43864"
             android:background=""
-            android:padding="5dp"
+            android:padding="16dp"
             android:layout_margin="2dp"/>
         <ImageButton
             android:id="@+id/btn_play"
@@ -45,7 +45,7 @@
             android:src="@drawable/ic_play_arrow_white_48dp"
             android:tint="#B43864"
             android:background=""
-            android:padding="5dp"
+            android:padding="16dp"
             android:layout_margin="2dp"/>
         <ImageButton
             android:id="@+id/btn_star"
@@ -54,7 +54,7 @@
             android:src="@drawable/ic_star_white_36dp"
             android:tint="#B43864"
             android:background=""
-            android:padding="5dp"
+            android:padding="16dp"
             android:layout_margin="2dp"/>
     </LinearLayout>
 </RelativeLayout>

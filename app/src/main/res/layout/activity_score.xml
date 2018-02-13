@@ -1,42 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FCD5CF"
+    android:background="#D6F0CD"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context="co.gamespay.www.justmatch.ScoreActivity">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true">
+        android:text="Just Maths"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/txtView"
+        android:textColor="#ACB9E8"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Score : 00"
+        android:textSize="30sp"
+        android:textColor="#C76155"
+        android:id="@+id/finalScore"
+        android:paddingTop="24dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_white_36dp"
+        android:background="#D6F0CD"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:tint="#B43864"/>
 
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_correct"
-            android:src="@drawable/ic_check_white_36dp"
-            android:layout_weight="1"
-            android:paddingTop="25dp"
-            android:paddingBottom="25dp"
-            android:layout_marginRight="1dp"
-            android:background="#97D5B3"/>
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_wrong"
-            android:src="@drawable/ic_close_white_36dp"
-            android:layout_weight="1"
-            android:paddingTop="25dp"
-            android:paddingBottom="25dp"
-            android:layout_marginLeft="1dp"
-            android:background="#97D5B3"/>
-    </LinearLayout>
-
-
-
-</RelativeLayout>
+</LinearLayout>
