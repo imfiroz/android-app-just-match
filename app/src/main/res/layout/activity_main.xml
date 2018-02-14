@@ -7,7 +7,7 @@
     android:paddingRight="16dp"
     android:paddingTop="100dp"
     android:paddingBottom="100dp"
-    android:background="#D6F0CD"
+    android:background="#d6f0cd"
     tools:context="co.gamespay.www.justmatch.ScoreActivity">
 
     <TextView

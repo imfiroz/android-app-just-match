@@ -24,7 +24,7 @@
             android:paddingTop="25dp"
             android:paddingBottom="25dp"
             android:layout_marginRight="1dp"
-            android:background="#97D5B3"/>
+            android:background="#FFD6F0CD"/>
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             android:paddingTop="25dp"
             android:paddingBottom="25dp"
             android:layout_marginLeft="1dp"
-            android:background="#97D5B3"/>
+            android:background="#FFD6F0CD"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
