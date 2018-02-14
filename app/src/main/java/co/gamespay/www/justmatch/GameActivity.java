@@ -81,6 +81,7 @@ public class GameActivity extends AppCompatActivity {
 
             Vibrator vibrator = (Vibrator) this.getSystemService(Context.VIBRATOR_SERVICE);
             vibrator.vibrate(100);
+
         }
         generateQuestion();
     }
@@ -97,7 +98,7 @@ public class GameActivity extends AppCompatActivity {
                 if(seconds<0)
                 {
                     Intent i = new Intent(GameActivity.this, ScoreActivity.class);
-                    i.putExtra("Score", score);
+                    i.putExtra("score", score);
                     stopTimer = true;
                     startActivity(i);
                 }
