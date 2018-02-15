@@ -44,8 +44,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_play_arrow_white_48dp"
             android:tint="#B43864"
-            android:background="#D6F0CD"
-            android:padding="16dp"
+            android:padding="25dp"
             android:layout_margin="2dp"/>
         <ImageButton
             android:id="@+id/btn_star"
